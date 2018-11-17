@@ -84,7 +84,7 @@ impl<T> ThreadBound<T> {
     /// underlying value.
     pub fn new(value: T) -> Self {
         ThreadBound {
-            value: value,
+            value,
             thread_id: thread::current().id(),
         }
     }
