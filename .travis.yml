@@ -1,0 +1,23 @@
+sudo: false
+language: rust
+
+rust:
+  - 1.19.0
+  - stable
+  - beta
+  - nightly
+
+script:
+  - cargo check
+
+matrix:
+  include:
+    - rust: nightly
+      name: Clippy
+      script:
+        - rustup component add clippy-preview
+        - cargo clippy --all-features
+  allow_failures:
+    - rust: nightly
+      name: Clippy
+  fast_finish: true
