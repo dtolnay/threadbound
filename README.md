@@ -14,7 +14,7 @@ ThreadBound was constructed can retrieve the underlying value.
 
 ```toml
 [dependencies]
-threadbound = "0.0"
+threadbound = "0.1"
 ```
 
 *Version requirement: rustc 1.19+*
