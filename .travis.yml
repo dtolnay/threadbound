@@ -15,7 +15,7 @@ matrix:
     - rust: nightly
       name: Clippy
       script:
-        - rustup component add clippy
+        - rustup component add clippy || travis_terminate 0
         - cargo clippy --all-features
   allow_failures:
     - rust: nightly
