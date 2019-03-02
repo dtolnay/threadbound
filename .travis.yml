@@ -15,7 +15,7 @@ matrix:
     - rust: nightly
       name: Clippy
       script:
-        - rustup component add clippy-preview
+        - rustup component add clippy
         - cargo clippy --all-features
   allow_failures:
     - rust: nightly
