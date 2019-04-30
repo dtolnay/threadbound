@@ -8,9 +8,7 @@
 //!
 //! # Example
 //!
-//! ```rust
-//! extern crate threadbound;
-//!
+//! ```
 //! use std::marker::PhantomData;
 //! use std::rc::Rc;
 //! use std::sync::Arc;
