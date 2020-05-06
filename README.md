@@ -1,7 +1,7 @@
 ThreadBound\<T\>
 ================
 
-[![Build Status](https://api.travis-ci.org/dtolnay/threadbound.svg?branch=master)](https://travis-ci.org/dtolnay/threadbound)
+[![Build Status](https://img.shields.io/github/workflow/status/dtolnay/threadbound/CI/master)](https://github.com/dtolnay/threadbound/actions?query=branch%3Amaster)
 [![Latest Version](https://img.shields.io/crates/v/threadbound.svg)](https://crates.io/crates/threadbound)
 [![Rust Documentation](https://img.shields.io/badge/api-rustdoc-blue.svg)](https://docs.rs/threadbound)
 
