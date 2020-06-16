@@ -62,7 +62,7 @@
 //! }
 //! ```
 
-#![doc(html_root_url = "https://docs.rs/threadbound/0.1.1")]
+#![doc(html_root_url = "https://docs.rs/threadbound/0.1.2")]
 
 use std::fmt::{self, Debug};
 use std::thread::{self, ThreadId};
