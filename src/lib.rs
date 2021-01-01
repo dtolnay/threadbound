@@ -63,6 +63,7 @@
 //! ```
 
 #![doc(html_root_url = "https://docs.rs/threadbound/0.1.2")]
+#![allow(clippy::doc_markdown)]
 
 use std::fmt::{self, Debug};
 use std::thread::{self, ThreadId};
