@@ -2,14 +2,14 @@
 name = "threadbound"
 version = "0.1.3"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
-edition = "2018"
-rust-version = "1.31"
-license = "MIT OR Apache-2.0"
-description = "Make any value Sync but only available on its original thread."
-repository = "https://github.com/dtolnay/threadbound"
-documentation = "https://docs.rs/threadbound"
 categories = ["rust-patterns"]
+description = "Make any value Sync but only available on its original thread."
+documentation = "https://docs.rs/threadbound"
+edition = "2018"
+license = "MIT OR Apache-2.0"
 readme = "README.md"
+repository = "https://github.com/dtolnay/threadbound"
+rust-version = "1.31"
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
