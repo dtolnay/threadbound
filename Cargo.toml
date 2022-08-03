@@ -1,6 +1,6 @@
 [package]
 name = "threadbound"
-version = "0.1.3"
+version = "0.1.4"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
 categories = ["concurrency", "rust-patterns"]
 description = "Make any value Sync but only available on its original thread."
