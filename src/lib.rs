@@ -83,6 +83,9 @@ pub struct ThreadBound<T> {
 unsafe impl<T> Sync for ThreadBound<T> {}
 
 // Send bound requires Copy, as otherwise Drop could run in the wrong place.
+//
+// Today Copy and Drop are mutually exclusive so `T: Copy` implies `T: !Drop`.
+// This impl needs to be revisited if that restriction is relaxed in the future.
 unsafe impl<T: Copy> Send for ThreadBound<T> {}
 
 impl<T> ThreadBound<T> {
