@@ -62,7 +62,7 @@
 //! }
 //! ```
 
-#![doc(html_root_url = "https://docs.rs/threadbound/0.1.6")]
+#![doc(html_root_url = "https://docs.rs/threadbound/0.1.7")]
 #![allow(clippy::doc_markdown)]
 
 use std::fmt::{self, Debug};
