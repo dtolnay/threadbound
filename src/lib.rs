@@ -10,10 +10,6 @@
 //! The wrapper gets to be [`Sync`] and [`Send`] but only the original thread on
 //! which the ThreadBound was constructed can retrieve the underlying value.
 //!
-//! [`ThreadBound<T>`]: struct.ThreadBound.html
-//! [`Sync`]: https://doc.rust-lang.org/std/marker/trait.Sync.html
-//! [`Send`]: https://doc.rust-lang.org/std/marker/trait.Send.html
-//!
 //! # Example
 //!
 //! ```
@@ -72,9 +68,7 @@ use std::thread::{self, ThreadId};
 /// of type T only from the original thread on which the ThreadBound was
 /// constructed.
 ///
-/// Refer to the [crate-level documentation] for a usage example.
-///
-/// [crate-level documentation]: index.html
+/// Refer to the [crate-level documentation][crate] for a usage example.
 pub struct ThreadBound<T> {
     value: T,
     thread_id: ThreadId,
