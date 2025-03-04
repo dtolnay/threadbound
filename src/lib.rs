@@ -58,7 +58,7 @@
 //! }
 //! ```
 
-#![doc(html_root_url = "https://docs.rs/threadbound/0.1.7")]
+#![doc(html_root_url = "https://docs.rs/threadbound/0.1.8")]
 #![allow(clippy::doc_markdown, clippy::needless_doctest_main)]
 
 use std::fmt::{self, Debug};
