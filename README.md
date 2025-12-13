@@ -18,8 +18,6 @@ ThreadBound was constructed can retrieve the underlying value.
 threadbound = "0.1"
 ```
 
-*Version requirement: rustc 1.31+*
-
 <br>
 
 ### Example
